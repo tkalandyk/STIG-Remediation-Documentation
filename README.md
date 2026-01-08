@@ -14,5 +14,6 @@ This repository contains documented STIG remediations performed on a Microsoft W
 - `/stigs/`  
 
   One Markdown file per STIG remediation
+  
   1.) STIG-WN11-AU-000500.md
 
