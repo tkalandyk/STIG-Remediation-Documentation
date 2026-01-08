@@ -13,4 +13,6 @@ This repository contains documented STIG remediations performed on a Microsoft W
 
   
   [1.) STIG-WN11-AU-000500.md](https://github.com/tkalandyk/STIG-Remediation-Documentation/blob/main/Stigs/STIG-WN11-AU-000500.md)
+  2.)
+  3.)
 
