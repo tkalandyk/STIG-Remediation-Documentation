@@ -6,7 +6,6 @@ This repository contains documented STIG remediations completed as part of a tec
 
 - Provide clear, verifiable evidence of STIG remediation work
 - Maintain minimal, professional documentation suitable for review
-- Separate internship-required evidence from future portfolio analysis
 
 ## Repository Structure
 
