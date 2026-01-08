@@ -14,15 +14,3 @@ This repository contains documented STIG remediations completed as part of a tec
   Internship-required STIG remediation documentation  
   One Markdown file per STIG
 
-- `/evidence/`  
-  Optional supporting notes if required
-
-- `/portfolio/`  
-  Reserved for future portfolio work (intentionally empty)
-
-## Documentation Standards
-
-- Raw Markdown only
-- One file per STIG
-- Minimal, factual, and verifiable
-- No policy or compliance framework expansion
