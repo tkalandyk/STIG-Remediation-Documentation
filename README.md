@@ -3,16 +3,15 @@
 
 # STIG Remediation Documentation
 
-This repository contains documented STIG remediations completed as part of a technical internship.
+This repository contains documented STIG remediations performed on a Microsoft Windows 11 Pro 64-bit Azure virtual machine.
 
 ## Purpose
 
-- Provide clear, verifiable evidence of STIG remediation work
-- Maintain minimal, professional documentation suitable for review
+- Provide clear, verifiable evidence of STIG remediation work done using PowerShell
 
 ## Repository Structure
 
 - `/stigs/`  
-  Internship-required STIG remediation documentation  
-  One Markdown file per STIG
+
+  One Markdown file per STIG remediation
 
