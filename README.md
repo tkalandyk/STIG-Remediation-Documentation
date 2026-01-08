@@ -9,7 +9,7 @@ This repository contains documented STIG remediations performed on a Microsoft W
 
 - Provide clear, verifiable evidence of STIG remediation work done using PowerShell
 
-## Repositories
+## STIG Remediation Repositories
 
   One Markdown file per STIG remediation
   
