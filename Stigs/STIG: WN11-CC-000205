@@ -1,3 +1,9 @@
+
+---
+
+## 3️⃣ WN11-CC-000205
+
+```markdown
 # STIG: WN11-CC-000205 – Diagnostic data collection must be limited
 
 ### Identifiers
@@ -36,3 +42,5 @@ Set-ItemProperty `
   -Name 'AllowTelemetry' `
   -Value 0 `
   -Type DWord
+
+
