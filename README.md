@@ -12,9 +12,9 @@ This repository contains documented STIG remediations performed on a Microsoft W
 ## STIG Remediation Repositories
 
   
-  [1.) STIG-WN11-AU-000500.md](https://github.com/tkalandyk/STIG-Remediation-Documentation/blob/main/Stigs/STIG-WN11-AU-000500.md) | Vuln-ID: V-253337 per DISA STIG
+  [1.) STIG-WN11-AU-000500.md](https://github.com/tkalandyk/STIG-Remediation-Documentation/blob/main/Stigs/STIG-WN11-AU-000500.md) 
   
-  2.)
+  2.) STIG: WN11-CC-000110.md](https://github.com/tkalandyk/STIG-Remediation-Documentation/blob/main/Stigs/STIG%3A%20WN11-CC-000110.md)
   
   3.)
 
