@@ -18,17 +18,17 @@ This repository contains documented STIG remediations performed on a Microsoft W
   
   [3.) STIG: WN11-CC-000155.md](https://github.com/tkalandyk/STIG-Remediation-Documentation/blob/main/Stigs/STIG%3A%20WN11-CC-000155.md)
 
-  4.)
+  [4.) STIG: WN11-CC-000185.md](https://github.com/tkalandyk/STIG-Remediation-Documentation/blob/main/Stigs/STIG%3A%20WN11-CC-000185.md)
 
-  5.)
+  [5.) STIG: WN11-CC-000205.md](https://github.com/tkalandyk/STIG-Remediation-Documentation/blob/main/Stigs/STIG%3A%20WN11-CC-000205.md)
 
-  6.)
+  [6.) STIG: WN11-CC-000206.md](https://github.com/tkalandyk/STIG-Remediation-Documentation/blob/main/Stigs/STIG%3A%20WN11-CC-000206.md)
 
-  7.)
+  [7.) STIG: WN11-CC-000210.md](https://github.com/tkalandyk/STIG-Remediation-Documentation/blob/main/Stigs/STIG%3A%20WN11-CC-000210.md)
 
-  8.)
+  [8.) STIG: WN11-CC-000252 .md](https://github.com/tkalandyk/STIG-Remediation-Documentation/blob/main/Stigs/STIG%3A%20WN11-CC-000252%20.md)
 
-  9.)
+  [9.) STIG: WN11-CC-000326.md](https://github.com/tkalandyk/STIG-Remediation-Documentation/blob/main/Stigs/STIG%3A%20WN11-CC-000326.md)
 
-  10.)
+  [10.) ️STIG: WN11-CC-000315.md](https://github.com/tkalandyk/STIG-Remediation-Documentation/blob/main/Stigs/%EF%B8%8FSTIG%3A%20WN11-CC-000315.md)
 
