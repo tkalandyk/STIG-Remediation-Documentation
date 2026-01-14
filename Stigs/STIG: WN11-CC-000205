@@ -1,0 +1,38 @@
+# STIG: WN11-CC-000205 – Diagnostic data collection must be limited
+
+### Identifiers
+- STIG ID: WN11-CC-000205
+- Vuln ID: V-253266 (DISA STIG)
+
+## System / Scope
+
+- **System:** Microsoft Windows 11 Pro 64-bit (Azure virtual machine, x64), standalone
+- **Environment:** Azure-hosted virtual machine used for STIG testing
+- **Role of system:** User workstation endpoint used for security testing and STIG remediation within a controlled lab environment
+
+## Finding
+
+- Diagnostic telemetry was not restricted to the minimum required level.
+- Excess system data could be transmitted.
+
+## Security Impact
+
+- Increased exposure of system information.
+- Potential violation of data minimization policies.
+- Non-compliance with DISA STIG requirements.
+
+## Remediation Performed
+
+- Reviewed the telemetry configuration.
+- Configured diagnostic data collection to the Security level.
+
+## PowerShell Remediation Script
+
+```powershell
+New-Item -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection' -Force | Out-Null
+
+Set-ItemProperty `
+  -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection' `
+  -Name 'AllowTelemetry' `
+  -Value 0 `
+  -Type DWord
