@@ -1,0 +1,62 @@
+STIG: WN11-CC-000326 – PowerShell Script Block Logging must be enabled
+Identifiers
+
+STIG ID: WN11-CC-000326
+
+Vuln ID: V-253271 (DISA STIG)
+
+System / Scope
+
+System: Microsoft Windows 11 Pro 64-bit (Azure virtual machine, x64), standalone
+
+Environment: Azure-hosted virtual machine used for STIG testing
+
+Role of system: User workstation endpoint used for security testing and STIG remediation within a controlled lab environment
+
+Finding
+
+PowerShell Script Block Logging was not enabled.
+
+PowerShell activity was not being fully captured for audit and analysis.
+
+Security Impact
+
+Reduced visibility into PowerShell execution.
+
+Increased risk of undetected malicious or obfuscated PowerShell activity.
+
+Limited forensic and incident response capabilities.
+
+Remediation Performed
+
+Reviewed the current PowerShell logging configuration.
+
+Enabled PowerShell Script Block Logging using a policy-backed registry setting.
+
+PowerShell Remediation Script
+New-Item -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging' -Force | Out-Null
+
+Set-ItemProperty `
+  -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging' `
+  -Name 'EnableScriptBlockLogging' `
+  -Value 1 `
+  -Type DWord
+
+Validation
+
+Confirmed the registry value was correctly set.
+
+Performed a Tenable compliance rescan using the Microsoft_Windows_11_STIG policy.
+
+Verified that STIG WN11-CC-000326 passed successfully after remediation.
+
+PowerShell Validation Command
+Get-ItemProperty `
+  -Path 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging' `
+  -Name 'EnableScriptBlockLogging'
+
+Notes
+
+Script Block Logging records full PowerShell command content.
+
+No system restart was required for this change.
